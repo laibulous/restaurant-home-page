@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    position: relative;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 60px;
+}
+
+h1, h2, h4 {
+    font-family: "Bona Nova SC", serif;
+    color: #734444;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.card {
+    width: 45%;
+    margin-top: 5%;
+    float: left;
+    margin-right: 50px;
+}
+
+.card img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    float: left;
+    margin-right: 50px;
+}
+
+
+p {
+    color: #734444;
+    font-family: serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #734444;
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    bottom: 5px;
+}
+
+footer h4 {
+    color: white;
+    
+}
+.below{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1015px){
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+        display: block;
+        text-align: justify;
+
+    }
+    .card img{
+        width: 100%;
+        margin-bottom: 30px;
+        display: inline;
+    }
+    h1{
+        text-align: center;
+        font-size: 3rem;
+
+    }
+}
+
+@media (max-width: 550px){
+    .logo{
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}
