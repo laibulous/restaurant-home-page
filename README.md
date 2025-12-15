@@ -1,7 +1,6 @@
 # Responsive Restaurant Home Page - HTML & CSS Practice
-
-A practice project to create a **responsive restaurant website homepage** using **HTML and vanilla CSS** with **media queries**.
 ---
+A practice project to create a **responsive restaurant website homepage** using **HTML and vanilla CSS** with **media queries**.
 
 ## Live Demo
 [View Live](https://laibulous.github.io/restaurant-home-page/)
